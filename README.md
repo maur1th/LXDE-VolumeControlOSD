@@ -1,13 +1,14 @@
 LXDE-VolumeControlOSD
 =====================
 
-Add volume control notifications for LXDE with pulseaudio and xfce4-notifyd (lubuntu 14.04 setup).
+Add volume +/- notifications for LXDE with pulseaudio and xfce4-notifyd (lubuntu 14.04 setup).
 
 #Installation
 1. Install notify-send (libnotify-bin package in ubuntu/debian).
 
 2. Move the script to the user's `~/.config/openbox/` directory and modify the `*rc.xml` file within. Add to or update its `<keyboard>` section accordingly:
 
+    ```xml
     <keyboard>
      ...
      <!-- Keybinding for Volume management -->
@@ -28,6 +29,7 @@ Add volume control notifications for LXDE with pulseaudio and xfce4-notifyd (lub
         </keybind>
     ...
     </keyboard>
+    ```
 
 3. Then reload openbox by delogging/relogging or invoking `openbox --reconfigure` in a Terminal window.
 
