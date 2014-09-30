@@ -36,6 +36,7 @@ Add volume +/- notifications for LXDE with pulseaudio and xfce4-notifyd (lubuntu
 #Notifications display
 You might want to force the way notifications are displayed by adding the following snippet to the `<applications>` section of `*rc.xml`:
 
+    ```xml
     <!-- Force notifications position -->
     <application class="*notif*">
         <position force="yes">
@@ -43,6 +44,7 @@ You might want to force the way notifications are displayed by adding the follow
             <y>-50</y>
         </position>
     </application>
+    ```
 
 #lubuntu/xfce4-power-manager OSD workaround:
 xfce4-power-manager handles brightness +/- keys and its OSD which position cannot be forced by openbox configuration. If you want to disable this OSD (courtesy of [docs.xfce.org](http://docs.xfce.org/xfce/xfce4-power-manager/preferences)):
