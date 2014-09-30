@@ -4,7 +4,7 @@
 # You might want to force the display of notifications by adding the following
 # snippet to the <applications> portion of "~/.config/openbox/*rc.xml":
 # <!-- Force notifications position -->
-# <application class="*notif*">
+# <application class="*notifyd">
 #     <position force="yes">
 #         <x>center</x>
 #         <y>-50</y>
