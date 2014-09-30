@@ -46,7 +46,7 @@ You might want to force the notifications to stack by adding the following snipp
 </application>
 ```
 
-##Customization
+###Customization
 To customize the position of the OSD, change x and y values. Top (y) and left (x) borders of the screen are (+)0, right (x) and bottom (y) -0. E.g. A y value of -50 will make windows appear 50px away from the bottom of the screen.
 
 #lubuntu/xfce4-power-manager OSD workaround:
