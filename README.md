@@ -1,7 +1,7 @@
 LXDE-VolumeControlOSD
 =====================
 
-Add volume +/- notifications for LXDE with pulseaudio and xfce4-notifyd (lubuntu 14.04 setup).
+Adds laptop media keys (volume +/-/mute) support and OSD for LXDE with pulseaudio and xfce4-notifyd (lubuntu 14.04 base setup). Tested on a ThinkPad X240.
 
 #Installation
 1. Install notify-send (libnotify-bin package in ubuntu/debian).
