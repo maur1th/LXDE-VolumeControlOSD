@@ -8,28 +8,28 @@ Add volume +/- notifications for LXDE with pulseaudio and xfce4-notifyd (lubuntu
 
 2. Move the script to the user's `~/.config/openbox/` directory and modify the `*rc.xml` file within. Add to or update its `<keyboard>` section accordingly:
 
-```xml
-<keyboard>
- ...
- <!-- Keybinding for Volume management -->
-    <keybind key="XF86AudioRaiseVolume">
-      <action name="Execute">
-        <command>python3 ~/.config/openbox/volumeControl.py raise</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioLowerVolume">
-      <action name="Execute">
-        <command>python3 ~/.config/openbox/volumeControl.py lower</command>
-      </action>
-    </keybind>
-    <keybind key="XF86AudioMute">
-      <action name="Execute">
-        <command>python3 ~/.config/openbox/volumeControl.py toggle-mute</command>
-      </action>
-    </keybind>
-...
-</keyboard>
-```
+    ```xml
+    <keyboard>
+     ...
+     <!-- Keybinding for Volume management -->
+        <keybind key="XF86AudioRaiseVolume">
+          <action name="Execute">
+            <command>python3 ~/.config/openbox/volumeControl.py raise</command>
+          </action>
+        </keybind>
+        <keybind key="XF86AudioLowerVolume">
+          <action name="Execute">
+            <command>python3 ~/.config/openbox/volumeControl.py lower</command>
+          </action>
+        </keybind>
+        <keybind key="XF86AudioMute">
+          <action name="Execute">
+            <command>python3 ~/.config/openbox/volumeControl.py toggle-mute</command>
+          </action>
+        </keybind>
+    ...
+    </keyboard>
+    ```
 
 3. Then reload openbox by delogging/relogging or invoking `openbox --reconfigure` in a Terminal window.
 
